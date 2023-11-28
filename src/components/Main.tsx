@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {
   Box,
   Card,
@@ -23,7 +24,7 @@ function Main() {
 
   return (
     <Box component="main" sx={{ pt: 4 }}>
-      <Container maxWidth="sm" sx={{ paddingY: 1 }}>
+      <Container maxWidth="md" sx={{ paddingY: 1 }}>
         <Grid container spacing={4}>
           {charactersRedux &&
             charactersRedux.map((item) => {
